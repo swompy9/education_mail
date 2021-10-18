@@ -87,7 +87,7 @@ class TicTacGame():
     def validate_input(value, board):
         try:
             value = int(value)
-        except:
+        except TypeError:
             raise TypeError
         if value not in TicTacGame.check_legal_moves(board):
             raise ValueError
@@ -101,7 +101,7 @@ class TicTacGame():
                 print(self.player_one[1], '- ваш ход!')
             else:
                 print(self.player_two[1], '- ваш ход!')
-            print('Введите число из диапазона:\n', *TicTacGame.check_legal_moves(self.board))
+            print('Доступны:\n', *TicTacGame.check_legal_moves(self.board))
             try:
                 move = TicTacGame.validate_input(input(), self.board)
             except ValueError:
