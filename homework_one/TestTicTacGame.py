@@ -20,11 +20,10 @@ class TestTicTacGame(unittest.TestCase):
         self.assertEqual(TicTacGame.check_legal_moves(['O', ' ', 'O', ' ', ' ', ' ', 'X', ' ', 'X']), [1, 3, 4, 5, 7])
         self.assertEqual(TicTacGame.check_legal_moves(['O', 'X', 'O', 'O', 'X', 'O', 'X', 'O', 'X']), [])
     def test_validate_input(self):
-        with self.assertRaises(TypeError):
+        with self.assertRaises(ValueError):
             TicTacGame.validate_input('Start', [' ']*9)
             TicTacGame.validate_input('Yes', [' ']*9)
             TicTacGame.validate_input('1', [' ']*9)
-        with self.assertRaises(ValueError):
             TicTacGame.validate_input(10, [' ']*9)
             TicTacGame.validate_input(9, [' ']*9)
             TicTacGame.validate_input(-1, [' ']*9)

@@ -87,8 +87,8 @@ class TicTacGame():
     def validate_input(value, board):
         try:
             value = int(value)
-        except TypeError:
-            raise TypeError
+        except ValueError:
+            raise ValueError
         if value not in TicTacGame.check_legal_moves(board):
             raise ValueError
         else:
