@@ -1,0 +1,52 @@
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:7:80: E501 line too long (89 > 79 characters)
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+TicTacGame.py:71:5: E301 expected 1 blank line, found 0
+TicTacGame.py:75:80: E501 line too long (81 > 79 characters)
+TicTacGame.py:82:80: E501 line too long (81 > 79 characters)
+TicTacGame.py:87:5: E301 expected 1 blank line, found 0
+TicTacGame.py:91:80: E501 line too long (94 > 79 characters)
+TicTacGame.py:101:1: E305 expected 2 blank lines after class or function definition, found 1
+TicTacGame.py:102:24: W292 no newline at end of file
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+TicTacGame.py:71:5: E301 expected 1 blank line, found 0
+TicTacGame.py:75:80: E501 line too long (81 > 79 characters)
+TicTacGame.py:82:80: E501 line too long (81 > 79 characters)
+TicTacGame.py:87:5: E301 expected 1 blank line, found 0
+TicTacGame.py:91:80: E501 line too long (94 > 79 characters)
+TicTacGame.py:101:1: E305 expected 2 blank lines after class or function definition, found 1
+TicTacGame.py:102:24: W292 no newline at end of file
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+TicTacGame.py:71:5: E301 expected 1 blank line, found 0
+TicTacGame.py:82:80: E501 line too long (81 > 79 characters)
+TicTacGame.py:87:5: E301 expected 1 blank line, found 0
+TicTacGame.py:91:80: E501 line too long (94 > 79 characters)
+TicTacGame.py:101:1: E305 expected 2 blank lines after class or function definition, found 1
+TicTacGame.py:102:24: W292 no newline at end of file
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+TicTacGame.py:71:5: E301 expected 1 blank line, found 0
+TicTacGame.py:87:5: E301 expected 1 blank line, found 0
+TicTacGame.py:91:80: E501 line too long (82 > 79 characters)
+TicTacGame.py:101:1: E305 expected 2 blank lines after class or function definition, found 1
+TicTacGame.py:102:24: W292 no newline at end of file
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+TicTacGame.py:71:5: E301 expected 1 blank line, found 0
+TicTacGame.py:87:5: E301 expected 1 blank line, found 0
+TicTacGame.py:101:1: E305 expected 2 blank lines after class or function definition, found 1
+TicTacGame.py:102:24: W292 no newline at end of file
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+TicTacGame.py:105:24: W292 no newline at end of file
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+TicTacGame.py:106:41: W292 no newline at end of file
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ flake8 TicTacGame.py 
+TicTacGame.py:44:80: E501 line too long (95 > 79 characters)
+(venv) ilya@ilya-MSI:~/PycharmProjects/education_mail$ 
+
