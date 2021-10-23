@@ -73,7 +73,7 @@ class TicTacGame():
 
     def congratulations_winner(self):
         if TicTacGame.choose_winner(self.board) == 'TIE':
-            print('Поздравляем, ничья!')
+            print('Поздравляsgsggsgsgsgsdgsgsgsgsdgddgsgdgsgdsgsgdsgsем, ничья!')
         elif TicTacGame.choose_winner(self.board) == self.player_one[0]:
             print('Поздравляем,', self.player_one[1], 'одержал победу!')
         else:
