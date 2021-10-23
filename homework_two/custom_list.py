@@ -102,7 +102,3 @@ class CustomList(list):
 
     def __ge__(self, other):
         return sum(self) >= sum(other)
-
-a = [7]
-b = CustomList([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
-print(a > b)
