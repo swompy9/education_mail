@@ -1,0 +1,51 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.1.253 (be patient)
+Completed 5000 requests
+Completed 10000 requests
+Completed 15000 requests
+Completed 20000 requests
+Completed 25000 requests
+Completed 30000 requests
+Completed 35000 requests
+Completed 40000 requests
+Finished 43275 requests
+
+
+Server Software:        nginx/1.18.0
+Server Hostname:        192.168.1.253
+Server Port:            80
+
+Document Path:          /pycharm.png
+Document Length:        55948 bytes
+
+Concurrency Level:      8
+Time taken for tests:   2.000 seconds
+Complete requests:      43275
+Failed requests:        0
+Total transferred:      2431906572 bytes
+HTML transferred:       2421302972 bytes
+Requests per second:    21637.36 [#/sec] (mean)
+Time per request:       0.370 [ms] (mean)
+Time per request:       0.046 [ms] (mean, across all concurrent requests)
+Transfer rate:          1187446.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       2
+Processing:     0    0   0.1      0       2
+Waiting:        0    0   0.0      0       2
+Total:          0    0   0.1      0       2
+
+Percentage of the requests served within a certain time (ms)
+  50%      0
+  66%      0
+  75%      0
+  80%      0
+  90%      0
+  95%      0
+  98%      1
+  99%      1
+ 100%      2 (longest request)
